@@ -15,7 +15,7 @@ function Navbar({ user, logout }) {
     <nav className="bg-[#161b22] border-b border-[#30363d]">
       <div className="max-w-5xl mx-auto px-6 h-14 flex justify-between items-center">
         <Link to={user ? "/profile" : "/"} className="flex items-center gap-2 text-white font-semibold text-lg tracking-tight">
-          <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center text-white text-sm font-bold">GP</div>
+          <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center text-white text-sm font-bold">PM</div>
           ProfilManager
         </Link>
         <div className="flex gap-1 items-center">
